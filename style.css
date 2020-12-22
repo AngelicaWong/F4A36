@@ -13,6 +13,7 @@ header{
 	color: black;
 	padding: 40px;
 	text-align:center;
+	width:150%;
 }
 nav{
 	background-color:#FFE4E1;
@@ -44,8 +45,7 @@ a:hover {
 }
 div{
 	display: block;
-	background-color:#FFCCCC
-;
+	background-color:#FFCCCC;
 	float: left;
 	width: 150px;
 	height: 600px;

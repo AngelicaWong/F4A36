@@ -21,6 +21,16 @@ nav{
 	width:150%;
 	font-size: 20px;
 }
+.nav ul li{
+	float:left;
+}
+.nav li a{
+	font-size:16px;
+	color:#000;
+	margin:0 40px;
+	line-height:40px;
+	text-decoration:none;
+}
 a{
 	display: block;
 	color: #195A5B;

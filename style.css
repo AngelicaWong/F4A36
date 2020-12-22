@@ -1,20 +1,61 @@
 @charset "utf-8";
 /* CSS Document */
-*{box-sizing: border-box}
-body {font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
+* {
+	box-sizing: border-box;
+}
+body{ 
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	width:1000px;
+	margin:auto;
+}
+header{
+	background-color:#BC8F8F;
+	color: black;
+	padding: 5px;
+	text-align:center;
+}
+nav{
+	background-color:#FFE4E1;
+	text-align: center;
+	float: left;
+	width:100%;
+	font-size: 15px;
+}
+a{
+	display: block;
+	color: #195A5B;
+	padding:5px;
+	float: left;
+}
 
-header{background-color:#ADBBC8; text-align: center;padding: 5px; color: white;font-size: 25px}
+a:hover {
+	background-color: #FFF0F5;
+	color:black;
+}
+div{
+	display: block;
+	background-color:#FFCCCC
+;
+	float: left;
+	width: 150px;
+	height: 500px;
+}
+article{
+	width: 700px;
+	height:500px;
+	float: left;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 10px;
+	font-size: 18px;
+}
+footer{
+	display: inline-block;
+	background-color:#BC8F8F;
+	color: black;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+}
 
-nav{float:left; background-color: antiquewhite;padding: 0px;margin: 0px;width: 100%}
 
-ul{list-style-type: none;padding: 0px;margin: 0px}
-
-li{float: left;text-align:center;}
-
-a{display: block;padding: 7px; background-color: antiquewhite}
-
-a:hover{background-color: darksalmon;color: white}
-
-article {list-style-type: none; background-color: white}
-
-footer {text-align: center; background-color: aliceblue; padding: 4px}
